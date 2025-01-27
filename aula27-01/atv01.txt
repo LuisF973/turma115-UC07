@@ -1,0 +1,11 @@
+Criar uma página web simples, utilizando as tags e conceitos apresentados, e adicionar comentários explicativos sobre cada tag utilizada.
+
+Passos para a Atividade:
+Crie um arquivo html
+Implemente a estrutura básica do HTML semântico.
+Adicione ao seu documento:
+*Um título que descreva o tema da sua página.
+*Pelo menos dois parágrafos explicando o que você sabe sobre TAGs HTML.
+*Lista não ordenada com os seus hobbies ou interesses.
+*Lista ordenada com os passos que você seguiria para criar um projeto web.
+*Uma imagem.
