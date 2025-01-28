@@ -1,0 +1,92 @@
+/* Reset básico */
+/* Remove margens e preenchimentos padrão dos navegadores e define o box-sizing */
+* {
+  margin: 0; /* Remove todas as margens */
+  padding: 0; /* Remove todos os preenchimentos */
+  box-sizing: border-box; /* Inclui bordas e preenchimentos no cálculo do tamanho */
+}
+
+/* Corpo */
+/* Define o estilo geral da página */
+body {
+  font-family: Arial, sans-serif; /* Define a fonte padrão */
+  line-height: 1.6; /* Define o espaçamento entre linhas */
+  color: #333; /* Define a cor do texto como cinza escuro */
+  background-color: #f4f4f4; /* Define a cor de fundo como cinza claro */
+  padding: 10px; /* Adiciona espaçamento interno ao corpo */
+}
+
+/* Cabeçalho */
+/* Estiliza a seção do cabeçalho */
+header {
+  background-color: #ec6732; /* Define a cor de fundo como azul */
+  color: white; /* Define a cor do texto como branco */
+  text-align: center; /* Centraliza o conteúdo */
+  padding: 20px 0; /* Adiciona preenchimento vertical */
+}
+
+/* Estilo para o título dentro do cabeçalho */
+header h1 {
+  margin-bottom: 10px; /* Adiciona espaçamento abaixo do título */
+}
+
+/* Navegação */
+/* Remove marcadores e define o layout flexível para a navegação */
+nav ul {
+  list-style: none; /* Remove os marcadores padrão da lista */
+  display: flex; /* Exibe os itens em linha */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  gap: 15px; /* Adiciona espaçamento entre os itens */
+}
+
+/* Links de navegação */
+nav a {
+  color: white; /* Define a cor do texto como branco */
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Efeito hover para os links de navegação */
+nav a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+/* Seções */
+/* Define o estilo das seções principais */
+section {
+  margin: 20px 0; /* Adiciona espaçamento vertical entre as seções */
+  padding: 15px; /* Adiciona preenchimento interno */
+  background-color: white; /* Define o fundo das seções como branco */
+  border-radius: 5px; /* Arredonda os cantos das seções */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+}
+
+/* Títulos das seções */
+section h2 {
+  color: #0056b3; /* Define a cor do texto como azul */
+  margin-bottom: 10px; /* Adiciona espaçamento abaixo dos títulos */
+}
+
+/* Listas */
+/* Estiliza as listas não ordenadas */
+ul {
+  list-style-type: "●"; /* Define o marcador como um círculo preenchido */
+  margin-left: 20px; /* Adiciona recuo à esquerda */
+}
+
+/* Itens da lista */
+li {
+  margin-bottom: 5px; /* Adiciona espaçamento abaixo de cada item */
+  padding: 5px; /* Adiciona preenchimento interno aos itens */
+}
+
+/* Links gerais */
+/* Define o estilo padrão para os links */
+a {
+  color: #0056b3; /* Define a cor como azul */
+  text-decoration: none; /* Remove o sublinhado padrão */
+}
+
+/* Efeito hover para links */
+a:hover {
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
