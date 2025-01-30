@@ -30,9 +30,7 @@ header h1{
     display: flex; /* aplica o display flexivel (linha comportamento padrão) */
     justify-content: center; /* Centraliza os itens */
     gap: 15px; /*adiciona um espaçamento entre os itens */
-    padding-right: 5px;
-    
-    
+  
  }
 
  nav a {
@@ -58,7 +56,7 @@ section h2{
     margin-bottom: 10px ;
 }
 
-section ul{
+ul{
     margin-left: 20px;
     list-style-type:"●";
 }

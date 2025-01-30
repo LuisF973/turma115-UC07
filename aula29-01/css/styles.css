@@ -1,72 +1,72 @@
 /* Reset CSS - Remove margens e paddings padrão */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  /* Corpo da página */
-  body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    padding: 20px;
-    color: #333;
-    text-align: center;
-  }
-  
-  /* Cabeçalho */
-  header {
-    background-color: #0077b6;
-    color: white;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
-  /* Área principal */
-  main {
-    width: 800px; /* Define uma largura fixa */
-    margin: 0 auto; /* Centraliza a área principal */
-  }
-  
-  /* Seção de produtos */
-  .produtos {
-    text-align: center; /* Garante que os produtos fiquem centralizados */
-  }
-  
-  /* Modelo de caixa aplicado aos cards */
-  .produto-card {
-    background-color: white;
-    border: 3px solid #0077b6; /* Borda azul para destacar os cards */
-    border-radius: 10px; /* Cantos arredondados */
-    padding: 15px; /* Espaçamento interno */
-    width: 250px; /* Define largura fixa */
-    text-align: center;
-    margin: 20px 10px; /* Espaçamento externo entre os produtos */
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Efeito de sombra */
-    display: inline-block; /* Garante que os cards fiquem lado a lado */
-    vertical-align: top; /* Alinha os elementos pelo topo */
-  }
-  
-  /* Imagens dos produtos */
-  .produto-card img {
-    width: 100%;
-    height: 150px;
-    border-radius: 5px; /* Borda arredondada na imagem */
-    border: 2px solid #ddd; /* Borda cinza leve */
-    margin-bottom: 10px; /* Espaçamento abaixo da imagem */
-  }
-  
-  /* Estilo dos títulos dos produtos */
-  .produto-card h3 {
-    color: #0077b6;
-    margin-bottom: 5px;
-  }
-  
-  /* Rodapé */
-  footer {
-    background-color: #0077b6;
-    color: white;
-    padding: 10px;
-    margin-top: 20px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 1.25rem; /* 20px */
+  color: #333;
+  text-align: center;
+}
+
+/* Cabeçalho */
+header {
+  background-color: #0077b6;
+  color: white;
+  padding: 1.25rem; /* 20px */
+  margin-bottom: 1.25rem; /* 20px */
+}
+
+/* Área principal */
+main {
+  width: 50rem; /* 800px */
+  margin: 0 auto; /* Centraliza a área principal */
+}
+
+/* Seção de produtos */
+.produtos {
+  text-align: center; /* Garante que os produtos fiquem centralizados */
+}
+
+/* Modelo de caixa aplicado aos cards */
+.produto-card {
+  background-color: white;
+  border: 0.1875rem solid #0077b6; /* 3px */
+  border-radius: 0.625rem; /* 10px */
+  padding: 0.9375rem; /* 15px */
+  width: 15.625rem; /* 250px */
+  text-align: center;
+  margin: 1.25rem 0.625rem; /* 20px 10px */
+  box-shadow: 0.3125rem 0.3125rem 0.9375rem rgba(0, 0, 0, 0.2); /* 5px 5px 15px */
+  display: inline-block; /* Garante que os cards fiquem lado a lado */
+  vertical-align: top; /* Alinha os elementos pelo topo */
+}
+
+/* Imagens dos produtos */
+.produto-card img {
+  width: 80%;
+  height: 9.375rem; /* 150px */
+  border-radius: 0.3125rem; /* 5px */
+  border: 0.125rem solid #ddd; /* 2px */
+  margin-bottom: 0.625rem; /* 10px */
+}
+
+/* Estilo dos títulos dos produtos */
+.produto-card h3 {
+  color: #0077b6;
+  margin-bottom: 0.3125rem; /* 5px */
+  font-size: 1.25rem; /* 20px */
+}
+
+/* Rodapé */
+footer {
+  background-color: #0077b6;
+  color: white;
+  padding: 0.625rem; /* 10px */
+  margin-top: 1.25rem; /* 20px */
+}
