@@ -1,0 +1,120 @@
+/* Definição de Variáveis */
+:root {
+    --cor-primaria: #0077b6;
+    --cor-secundaria: #023e8a;
+    --cor-fundo: #f4f4f4;
+    --cor-texto: #333;
+    --espacamento: 1.25rem;
+    --borda-arredondada: 0.625rem;
+  }
+  
+  /* Reset CSS */
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    text-align: center;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: var(--espacamento);
+  }
+  
+  /* Menu de navegação */
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: var(--espacamento);
+    margin-top: 0.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Seção Banner */
+  .banner {
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 2rem;
+    margin-top: var(--espacamento);
+  }
+  
+  /* Seção Palestrantes */
+  #palestrantes {
+    padding: var(--espacamento);
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    gap: var(--espacamento);
+    flex-wrap: wrap;
+    margin-top: var(--espacamento);
+  }
+  
+  /* Cartões de Palestrantes */
+  .card {
+    background-color: white;
+    border-radius: var(--borda-arredondada);
+    padding: var(--espacamento);
+    width: 15rem;
+    text-align: center;
+    box-shadow: 0.3125rem 0.3125rem 0.9375rem rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 10rem;
+    border-radius: var(--borda-arredondada);
+  }
+  
+  /* Seção de Inscrição */
+  #inscricao {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: 2rem;
+    margin-top: var(--espacamento);
+  }
+  
+  button {
+    background-color: white;
+    color: var(--cor-primaria);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: var(--borda-arredondada);
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  button:hover {
+    background-color: var(--cor-secundaria);
+    color: white;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: var(--cor-primaria);
+    color: white;
+    padding: var(--espacamento);
+    margin-top: var(--espacamento);
+  }
+  
