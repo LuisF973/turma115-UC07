@@ -1,0 +1,124 @@
+:root {
+    --cor-fundo: #333;
+    --cor-texto: #fff;
+    --cor-header: #222;
+    --cor-main: #111;
+    --cor-secao: #222;
+    --cor-borda: #444;
+
+    --fonte-padrao: Arial, sans-serif;
+    --tamanho-h1: 2rem;
+    --tamanho-h2: 1.5rem;
+    --tamanho-p: 1rem;
+
+    --padding-padrao: 1rem;
+    --padding-header: 2rem;
+    --margin-padrao: 1rem;
+
+    --largura-max-main: 75rem; /* 1200px convertido para rem */
+    --largura-imagens: 6.25rem; /* 100px */
+    --altura-imagens: 6.25rem; /* 100px */
+    --border-radius: 0.3125rem; /* 5px */
+    --border-size: 0.0625rem; /* 1px */
+}
+
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+    font-family: var(--fonte-padrao);
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+}
+
+/* Cabeçalho */
+header {
+    background-color: var(--cor-header);
+    text-align: center;
+    padding: var(--padding-header);
+}
+
+header img {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+    object-fit: cover;
+}
+
+/* Títulos */
+h1 {
+    font-size: var(--tamanho-h1);
+}
+
+h2 {
+    font-size: var(--tamanho-h2);
+    margin: 0;
+}
+
+/* Parágrafos */
+p {
+    font-size: var(--tamanho-p);
+    text-align: justify;
+}
+
+/* Conteúdo principal */
+main {
+    max-width: var(--largura-max-main);
+    margin: var(--padding-header) auto;
+    background-color: var(--cor-main);
+    padding: var(--padding-header);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Seções */
+section {
+    flex: 1;
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao);
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+}
+
+/* Estrutura de bandas */
+.band {
+    display: flex;
+    align-items: center;
+    margin-bottom: var(--margin-padrao);
+}
+
+.band img {
+    width: var(--largura-imagens);
+    height: var(--altura-imagens);
+    object-fit: cover;
+    margin-right: var(--margin-padrao);
+}
+
+/* Informações da banda */
+.band-info {
+    flex: 1;
+}
+
+/* Barra lateral */
+aside {
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao);
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+}
+
+/* Rodapé */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    text-align: center;
+    padding: var(--padding-padrao);
+    background-color: var(--cor-header);
+}
