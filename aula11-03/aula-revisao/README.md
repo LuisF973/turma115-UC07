@@ -86,7 +86,7 @@ Vamos criar nosso primeiro projeto React utilizando Vite. Para isso, siga os pas
 ### 💻 1. Instalar o Vite e Criar o Projeto
 No terminal, execute:
 ```sh
-npm create vite@latest meu-projeto-react --template react
+npm create vite@latest meu-projeto-react -- --template react
 ```
 Substitua `meu-projeto-react` pelo nome do seu projeto.
 
@@ -160,15 +160,17 @@ Com o servidor rodando (`npm run dev`), basta atualizar o navegador para ver a a
 
 ## 📖 Conclusão
 Nesta aula, revisamos:
-✅ **Componentes**.
-✅ **React Router e navegação entre páginas**.
-✅ **CSS em Componentes utilizando CSS Modules**.
-✅ O que é **React** e suas vantagens.
-✅ O que é **Vite** e por que usá-lo.
-✅ Como **criar um projeto React com Vite**.
-✅ Estrutura de arquivos de um projeto React.
-✅ Criamos um **componente React**.
 
+- ✅**Componentes**;
+- ✅**React Router e navegação entre páginas**;
+- ✅**CSS em Componentes utilizando CSS Modules**;
+- ✅O que é **React** e suas vantagens;
+- ✅O que é **Vite** e por que usá-lo;
+- ✅Como **criar um projeto React com Vite**;
+- ✅Estrutura de arquivos de um projeto React;
+- ✅Criamos um **componente React**.
+
+Na próxima aula, vamos aprofundar em Props no React! 🚀
 
 
 

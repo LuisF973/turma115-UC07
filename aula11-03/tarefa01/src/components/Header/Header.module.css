@@ -1,0 +1,19 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+    background-color: #222;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .header img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  

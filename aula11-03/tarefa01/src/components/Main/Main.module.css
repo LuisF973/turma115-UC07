@@ -1,0 +1,48 @@
+:root {
+  --cor-fundo: #333;
+  --cor-texto: #fff;
+  --cor-header: #222;
+  --cor-main: #111;
+  --cor-secao: #222;
+  --cor-borda: #444;
+
+  --fonte-padrao: Arial, sans-serif;
+  --tamanho-h1: 2rem;
+  --tamanho-h2: 1.5rem;
+  --tamanho-p: 1rem;
+
+  --padding-padrao: 1rem;
+  --padding-header: 2rem;
+  --margin-padrao: 1rem;
+
+  --largura-max-main: 75rem; /* 1200px convertido para rem */
+  --largura-imagens: 6.25rem; /* 100px */
+  --altura-imagens: 6.25rem; /* 100px */
+  --border-radius: 0.3125rem; /* 5px */
+  --border-size: 0.0625rem; /* 1px */
+}
+
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main {
+    max-width: 75rem;
+    margin: 2rem auto;
+    background-color: #111;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .section {
+    flex: 1;
+    margin: 1rem;
+    background-color:  #222;
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+}
+
