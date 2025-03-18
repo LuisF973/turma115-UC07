@@ -30,12 +30,10 @@ function Main() {
     <main className={styles.main}>
       
       {bands.map((band, index) => (
-        <div className={styles.section}>
+        <section>
           <Band key={index} {...band} />
-        </div>
+        </section>
       ))}
-     
-      
     </main>
   );
 }

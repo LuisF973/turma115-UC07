@@ -38,7 +38,7 @@
     align-items: center;
     flex-wrap: wrap;
   }
-  .section {
+  .main section {
     flex: 1;
     margin: 1rem;
     background-color:  #222;

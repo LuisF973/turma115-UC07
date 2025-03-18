@@ -1,0 +1,23 @@
+.main {
+    max-width: var(--largura-max-main);
+    margin: var(--padding-header) auto;
+    background-color: var(--cor-main);
+    padding: var(--padding-header);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main section {
+    flex: 1;
+    margin: var(--margin-padrao);
+    padding: var(--padding-padrao);
+    background-color: var(--cor-secao);
+    border: var(--border-size) solid var(--cor-borda);
+    border-radius: var(--border-radius);
+}
+
+.main section a{
+    text-decoration: none;
+    cursor: pointer;
+    color: var(--cor-texto);
+}
