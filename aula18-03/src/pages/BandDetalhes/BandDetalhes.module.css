@@ -1,0 +1,26 @@
+.container{
+   max-width: 40rem;
+   display: flex;
+   margin: 2rem auto;
+
+}
+
+.container div {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+   border-radius: 1rem;
+   padding: var(--padding-padrao);
+   background-color: black;
+   border-radius: var(--border-radius);
+}
+
+.link{
+    text-decoration: none;
+    font-size: var(--tamanho-p);
+    color: var(--cor-texto);
+    width: 8rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: rgb(102, 102, 159);
+}
