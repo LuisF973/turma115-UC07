@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(240, 240, 91);
+    border: 0.1rem solid brown;
+}
+
+.container p{
+    font-size: 1rem;
+    font-weight: bold;
+}
