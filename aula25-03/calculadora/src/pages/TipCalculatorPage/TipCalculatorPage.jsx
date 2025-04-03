@@ -13,7 +13,12 @@ function TipCalculator() {
         const valor = parseFloat(valorConta);
         const valorGorjeta = (valor * parseFloat(percentualGorjeta)) / 100;
         const total = valor + valorGorjeta;
-        setResultado({ gorjeta: valorGorjeta.toFixed(2), total: total.toFixed(2) });
+        if(total){
+          setResultado({ gorjeta: valorGorjeta.toFixed(2), total: total.toFixed(2) });  
+        }else{
+            setResultado("Erro ao calcular.")
+        }
+        
     }
     return (
         <>
@@ -33,7 +38,7 @@ function TipCalculator() {
                     text="Calcular" onCLick={calcularGorjeta}
                 />
                 
-                {resultado && (<ResultDisplay gorjeta={resultado.gorjeta} total={resultado.total} />)}
+                { resultado && (<ResultDisplay gorjeta={resultado.gorjeta} total={resultado.total} />)}
                 
                 
             </div>
