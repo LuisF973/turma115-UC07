@@ -3,7 +3,7 @@ const cors = require('cors');
 const dotenv = require('dotenv');
 dotenv.config();
 const app = express();
-const port = process.env.PORT;
+const port = process.env.PORTA;
 const router = require('./routes/alunoRoutes')
 
 app.use(cors());

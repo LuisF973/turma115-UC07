@@ -12,8 +12,7 @@ class AlunoModel {
         const dados = [matricula, nome, email, senha]
         const consulta = `update aluno set nome = $2, email = $3, senha = $4 where matricula = $1 returning *`
         const alunoAtualizado = await pool.query(consulta, dados)
-        return alunoAtualizado.rows
-    }
+        return alunoAtualizado.rows    }
 
     static async listar() {
         const consulta = `select * from aluno`
