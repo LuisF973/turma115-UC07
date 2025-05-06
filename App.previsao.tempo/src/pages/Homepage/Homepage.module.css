@@ -1,0 +1,34 @@
+.conteiner{
+    max-width: 1000px;
+    position: 20px;
+    margin: 0 auto ;
+}
+h1{
+    font-size: 3rem;
+    color: aliceblue;
+
+}
+
+input{
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: none;
+    width: 60%;
+    max-width: 300px;
+
+}
+
+
+button{
+    background-color: #ff9800;
+    position: 10px;
+    border: none;
+    width: 60%;
+    border-radius: 0 20px 20px 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #f57;
+}
